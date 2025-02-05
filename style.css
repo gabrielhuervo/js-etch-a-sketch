@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#resize-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#resize-button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: grid;
+    width: 960px;
+    height: 960px;
+}
+
+.grid-item {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
